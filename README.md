@@ -25,7 +25,7 @@ Half-size and full-size Reindeer and Art images. Source: http://vision.middlebur
 
 ## Experiments:
 
-7 experiments were made with the following parameters. Output disparity maps can be found at disparityMapPath and output pointclouds can be are at pointCloudPath.
+7 experiments were made with the following parameters. Output disparity map can be found at disparityMapPath and output pointclouds can be found at pointCloudPath.
 
 | Experiment | leftImagePath | rightImagePath | disparityMapPath | pointCloudPath | mode | windowSize | disparityRange | weight | baseline | focalLength | dmin |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -37,4 +37,4 @@ Half-size and full-size Reindeer and Art images. Source: http://vision.middlebur
 | **Reindeer, DP, Half** | Input/Reindeer/Half/view1.png | Input/Reindeer/Half/view5.png | Output/Reindeer/DisparityMaps/DP/Half/DisparityMap.png | Output/Reindeer/Pointclouds/DP/Half/Pointcloud.asc | dp | 0 | 0 | 4 | 160 | 3740 | 230 |
 | **Reindeer, DP, Full** | Input/Reindeer/Full/view1.png | Input/Reindeer/Full/view5.png | Output/Reindeer/DisparityMaps/DP/Full/DisparityMap.png | Output/Reindeer/Pointclouds/DP/Full/Pointcloud.asc | dp | 0 | 0 | 4 | 160 | 3740 | 230 |
 
-Art, DP, Full experiment were running during the creation of the README file.
+Art, DP, Full experiment were running during the creation of the README file, this is why it's not uploaded yet.
