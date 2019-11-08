@@ -12,10 +12,10 @@ Half-size and full-size Reindeer and Art images. Source: http://vision.middlebur
 
 | Experiment | leftImagePath | rightImagePath | disparityMapPath | pointCloudPath | mode | windowSize | disparityRange | weight | baseline | focalLength | dmin |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Art, Naive, Half** | Input/Art/Half/view1.png | Input/Art/Half/view5.png | Output/Art/DisparityMaps/Naive/Half/DisparityMap.png | Output/Art/Pointclouds/Naive/Half/Pointcloud.asc |  |  |  |  |  |  |  |
-| **Art, Naive, Full** | Input/Art/Full/view1.png | Input/Art/Full/view5.png | Output/Art/DisparityMaps/Naive/Full/DisparityMap.png | Output/Art/Pointclouds/Naive/Full/Pointcloud.asc |  |  |  |  |  |  |  |
-| **Art, DP, Half** | Input/Art/Half/view1.png | Input/Art/Half/view5.png | Output/Art/DisparityMaps/DP/Half/DisparityMap.png | Output/Art/Pointclouds/DP/Half/Pointcloud.asc |  |  |  |  |  |  |  |
-| **Reindeer, Naive, Half** | Input/Reindeer/Half/view1.png | Input/Reindeer/Half/view5.png | Output/Reindeer/DisparityMaps/Naive/Half/DisparityMap.png | Output/Reindeer/Pointclouds/Naive/Half/Pointcloud.asc |  |  |  |  |  |  |  |
-| **Reindeer, Naive, Full** | Input/Reindeer/Full/view1.png | Input/Reindeer/Full/view5.png | Output/Reindeer/DisparityMaps/Naive/Full/DisparityMap.png | Output/Reindeer/Pointclouds/Naive/Full/Pointcloud.asc |  |  |  |  |  |  |  |
-| **Reindeer, DP, Half** | Input/Reindeer/Half/view1.png | Input/Reindeer/Half/view5.png | Output/Reindeer/DisparityMaps/DP/Half/DisparityMap.png | Output/Reindeer/Pointclouds/DP/Half/Pointcloud.asc |  |  |  |  |  |  |  |
-| **Reindeer, DP, Full** | Input/Reindeer/Full/view1.png | Input/Reindeer/Full/view5.png | Output/Reindeer/DisparityMaps/DP/Full/DisparityMap.png | Output/Reindeer/Pointclouds/DP/Full/Pointcloud.asc |  |  |  |  |  |  |  |
+| **Art, Naive, Half** | Input/Art/Half/view1.png | Input/Art/Half/view5.png | Output/Art/DisparityMaps/Naive/Half/DisparityMap.png | Output/Art/Pointclouds/Naive/Half/Pointcloud.asc | naive | 4 | 128 | 0 | 160 | 3740 | 200 |
+| **Art, Naive, Full** | Input/Art/Full/view1.png | Input/Art/Full/view5.png | Output/Art/DisparityMaps/Naive/Full/DisparityMap.png | Output/Art/Pointclouds/Naive/Full/Pointcloud.asc | naive | 4 | 128 | 0 | 160 | 3740 | 200 |
+| **Art, DP, Half** | Input/Art/Half/view1.png | Input/Art/Half/view5.png | Output/Art/DisparityMaps/DP/Half/DisparityMap.png | Output/Art/Pointclouds/DP/Half/Pointcloud.asc | dp | 0 | 0 | 4 | 160 | 3740 | 200 |
+| **Reindeer, Naive, Half** | Input/Reindeer/Half/view1.png | Input/Reindeer/Half/view5.png | Output/Reindeer/DisparityMaps/Naive/Half/DisparityMap.png | Output/Reindeer/Pointclouds/Naive/Half/Pointcloud.asc | naive | 4 | 128 | 0 | 160 | 3740 | 230 |
+| **Reindeer, Naive, Full** | Input/Reindeer/Full/view1.png | Input/Reindeer/Full/view5.png | Output/Reindeer/DisparityMaps/Naive/Full/DisparityMap.png | Output/Reindeer/Pointclouds/Naive/Full/Pointcloud.asc | naive | 4 | 128 | 0 | 160 | 3740 | 230 |
+| **Reindeer, DP, Half** | Input/Reindeer/Half/view1.png | Input/Reindeer/Half/view5.png | Output/Reindeer/DisparityMaps/DP/Half/DisparityMap.png | Output/Reindeer/Pointclouds/DP/Half/Pointcloud.asc | dp | 0 | 0 | 4 | 160 | 3740 | 230 |
+| **Reindeer, DP, Full** | Input/Reindeer/Full/view1.png | Input/Reindeer/Full/view5.png | Output/Reindeer/DisparityMaps/DP/Full/DisparityMap.png | Output/Reindeer/Pointclouds/DP/Full/Pointcloud.asc | dp | 0 | 0 | 4 | 160 | 3740 | 230 |
